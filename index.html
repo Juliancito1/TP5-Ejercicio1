@@ -16,14 +16,15 @@
     <section>
     <h1 class="text-center display-1">Bienvenido a Numeros Mágicos</h1>
     <h3 class="text-center mt-5">Haz click en el boton para generar un numero aleatorio e intenta adivinarlo</h3>
-    <button class="btn btn-light mt-3">Comenzar el juego</button>
+    <button class="btn btn-light mt-3" onclick="numeroRandom()">Comenzar el juego</button>
     <form id="formu">
     <div class="my-3 text-start">
-        <label class="form-label">Ingrese un numero</label>
-        <input type="number" class="form-control w-25" placeholder="Ej. 10" required>
-        <button type="submit" class="btn btn-outline-primary mt-2">Enviar numero</button>
+        <label class="form-label">Ingrese un numero entre 1 y 100</label>
+        <input type="number" class="form-control w-75" placeholder="Ej. 10" required>
+        <button type="submit" class="btn btn-success mt-2">Enviar numero</button>
     </div>
     </form>
+    <img class="img-numeros" src="./img/numero magico.jpeg" alt="numero magico imagen">
     </section>
 </main>
 </body>
