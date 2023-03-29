@@ -5,6 +5,7 @@ formulario.addEventListener('submit',adivinar);
 function numeroRandom(){
     numeroMagico = Math.floor(Math.random()* 100) + 1;
     console.log(numeroMagico);
+    alert("El numero fue generado, comienza a adivinar");
     return numeroMagico;
 }
 

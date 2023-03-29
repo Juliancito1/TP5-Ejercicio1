@@ -4,6 +4,16 @@
 font-family: 'Roboto Mono', monospace;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -22,5 +32,8 @@ body{
 }
 
 @media all and (min-width: 768px) and (max-width: 991px){
-
+    .img-numeros{
+        height: 400px;
+        object-fit: cover;
+    }
 }
